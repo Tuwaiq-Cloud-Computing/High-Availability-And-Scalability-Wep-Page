@@ -14,7 +14,7 @@ HOSTNAME=$(curl -s http://100.100.100.200/latest/meta-data/hostname)
 echo "Zone: $ZONE" > /var/www/html/index.html
 echo "Hostname: $HOSTNAME" >> /var/www/html/index.html
 ```
-#### After running these commands create custom images of this instance and use it as auto-scaling image.
+#### After running these commands create scaling configuration from that instance and use it with your scaling group.
 
 <br />
 
